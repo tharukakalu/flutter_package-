@@ -1,3 +1,4 @@
+import 'package:example/presentation/tabs/pages/tabs_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_package_ba_tool/flutter_package_ba_tool.dart';
 
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: TabsPage(),
     );
   }
 }
